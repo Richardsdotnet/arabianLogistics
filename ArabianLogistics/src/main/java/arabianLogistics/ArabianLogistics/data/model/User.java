@@ -2,9 +2,12 @@ package arabianLogistics.ArabianLogistics.data.model;
 
 
 
-
+@Setter
+@Getter
 public class User{
     private String name;
+    private String email;
+    private String password;
   
 public void setName(String name){
     this.name = name;
