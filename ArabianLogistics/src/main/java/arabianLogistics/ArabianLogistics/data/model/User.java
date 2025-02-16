@@ -1,19 +1,22 @@
 package arabianLogistics.ArabianLogistics.data.model;
-import lombok.*;
+
 
 
 
 public class User{
     private String name;
-    private String email;
-    private String password;
-
-@Setters
-@Getter
+  
+public void setName(String name){
+    this.name = name;
+}
+public String getName(){
+    return this.name;
+}
 
     public void addUser(){
         User user = new User();
         user.setName("John");
+        System.out.println(user.toString());
       
     }
     
