@@ -16,7 +16,7 @@ public String getName(){
     public void addUser(){
         User user = new User();
         user.setName("John");
-        System.out.println(user.toString());
+        System.out.println(user);
       
     }
     
