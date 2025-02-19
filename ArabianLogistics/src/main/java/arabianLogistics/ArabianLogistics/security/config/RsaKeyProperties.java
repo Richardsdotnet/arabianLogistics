@@ -1,4 +1,4 @@
-package arabianLogistics.ArabianLogistics.configuration;
+package arabianLogistics.ArabianLogistics.security.config;
 
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
