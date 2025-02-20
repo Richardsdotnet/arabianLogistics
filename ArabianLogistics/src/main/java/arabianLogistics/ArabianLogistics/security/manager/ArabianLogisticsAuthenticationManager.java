@@ -9,11 +9,11 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.stereotype.Component;
 
 @Component
-public class BdicAuthenticationManager implements AuthenticationManager {
+public class ArabianLogisticsAuthenticationManager implements AuthenticationManager {
     private final AuthenticationProvider authenticationProvider;
 
     @Autowired
-    public BdicAuthenticationManager(AuthenticationProvider authenticationProvider) {
+    public ArabianLogisticsAuthenticationManager(AuthenticationProvider authenticationProvider) {
         this.authenticationProvider = authenticationProvider;
     }
 

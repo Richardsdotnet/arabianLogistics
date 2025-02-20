@@ -38,7 +38,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 @AllArgsConstructor
 @Slf4j
-public class BdicUsernamePasswordAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
+public class ArabianLogisticsUsernamePasswordAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
     private final ObjectMapper mapper = new ObjectMapper();
     private final AuthenticationManager authenticationManager;

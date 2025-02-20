@@ -13,8 +13,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @AllArgsConstructor
-public class BdicAuthenticationProvider implements AuthenticationProvider {
-
+public class ArabianLogisticsAuthenticationProvider implements AuthenticationProvider {
     private final UserDetailsService userDetailsService;
     private final PasswordEncoder passwordEncoder;
 
@@ -31,7 +30,6 @@ public class BdicAuthenticationProvider implements AuthenticationProvider {
 
     @Override
     public boolean supports(Class<?> authType) {
-
         return authType.equals(UsernamePasswordAuthenticationToken.class);
     }
 }

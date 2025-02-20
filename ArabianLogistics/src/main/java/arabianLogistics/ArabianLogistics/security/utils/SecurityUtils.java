@@ -21,7 +21,7 @@ public class SecurityUtils {
     );
 
 
-    public static final String[] FARMER_ENDPOINTS = {
+    public static final String[] RIDER_ENDPOINTS = {
             "/api/v1/product/add",
             "/api/v1/buyer/addAccountDetails",
             "/api/v1/product/farmerProducts"
@@ -29,7 +29,7 @@ public class SecurityUtils {
 
 
 
-    public static final String[] BUYER_ENDPOINTS = {
+    public static final String[] CUSTOMER_ENDPOINTS = {
             "/api/v1/order/**",
             "/api/v1/order/addToOrder",
             "/api/v1/order/removeProductFromOrder",
@@ -38,8 +38,5 @@ public class SecurityUtils {
             "/api/v1/payment/transfer"
     };
 
-    public static final String[] RIDER_ENDPOINTS = {
-            "/api/v1/logistics/updateLocation",
-            "/api/v1/logistics/sendDeliveryConfirmation"
-    };
+
 }

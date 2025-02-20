@@ -33,7 +33,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 @Component
 @AllArgsConstructor
 @Slf4j
-public class BdicAuthorizationFilter extends OncePerRequestFilter {
+public class ArabianLogisticsAuthorizationFilter extends OncePerRequestFilter {
     private final RsaKeyProperties rsaKeys;
     private final AuthService authService;
 
